@@ -36,7 +36,7 @@
        the active window is -->
   </placement>
   <theme>
-    <name>96Boards</name>
+    <name>Linaro</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
