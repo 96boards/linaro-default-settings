@@ -1,0 +1,19 @@
+Source: linaro-default-settings
+Section: x11
+Priority: optional
+Maintainer: Ricardo Salveti <ricardo.salveti@linaro.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Git: https://github.com/96boards/linaro-default-settings.git
+Homepage: https://github.com/96boards/linaro-default-settings
+
+Package: linaro-default-settings
+Architecture: all
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends},
+         lxsession (>= 0.4.1),
+         linaro-artwork,
+         linaro-icon-theme,
+         linaro-lxpanel-icons
+Description: default settings for Linaro
+ Various system settings tailored for Linaro.
