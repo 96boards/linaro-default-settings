@@ -9,6 +9,8 @@ Homepage: https://github.com/96boards/linaro-default-settings
 
 Package: linaro-default-settings
 Architecture: all
+Replaces: 96boards-default-settings (<= 0.2)
+Breaks: 96boards-default-settings (<= 0.2)
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends},
          lxsession (>= 0.4.1),

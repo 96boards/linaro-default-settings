@@ -1,3 +1,12 @@
+linaro-default-settings (0.3-0linaro1) UNRELEASED; urgency=medium
+
+  * debian/control: adding breaks/replaces to avoid issues with the older
+    96boards specific packages
+  * debian/gbp.conf: using the right upstream version tag
+  * debian/source: changing source format from native to quilt
+
+ -- Ricardo Salveti de Araujo <ricardo.salveti@linaro.org>  Wed, 18 Nov 2015 14:41:34 -0200
+
 linaro-default-settings (0.3) jessie; urgency=medium
 
   * Initial upload
