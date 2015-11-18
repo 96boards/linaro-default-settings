@@ -1,4 +1,4 @@
-linaro-default-settings (0.3-0linaro1) UNRELEASED; urgency=medium
+linaro-default-settings (0.3-0linaro1) jessie; urgency=medium
 
   * debian/control: adding breaks/replaces to avoid issues with the older
     96boards specific packages
